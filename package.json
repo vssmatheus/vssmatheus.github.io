@@ -1,0 +1,25 @@
+{
+  "name": "curriculo-web",
+  "version": "1.0.0",
+  "description": "Curriculo web - Matheus Vieira da silva Santos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vssmatheus/curriculo-web.git"
+  },
+  "author": "Matheus Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vssmatheus/curriculo-web/issues"
+  },
+  "homepage": "https://github.com/vssmatheus/curriculo-web#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
