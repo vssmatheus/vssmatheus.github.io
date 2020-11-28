@@ -1,1 +1,99 @@
 /* CONVENÇÃO BEM (BLOCO ELEMENTO E MODIFICADOR) */
+
+body {
+    background: #303030;
+}
+
+header {
+    background-image: url("/assets/images/pexels-negative-space-160107.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    height: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-eu {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    border: 3px solid transparent !important;
+    background: rgb(18, 115, 187);
+    background: radial-gradient(circle, rgba(18, 115, 187, 1) 0%, rgba(93, 208, 232, 1) 52%, rgba(0, 108, 198, 1) 100%);
+    -webkit-box-shadow: 0px 0px 24px 6px rgba(66, 128, 194, 0.48);
+    -moz-box-shadow: 0px 0px 24px 6px rgba(66, 128, 194, 0.48);
+    box-shadow: 0px 0px 24px 6px rgba(66, 128, 194, 0.48);
+}
+
+.img-eu img {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.my-name {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.my-name>h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.my-name>span {
+    font-size: 1.2rem;
+    color: rgb(243, 243, 243);
+}
+
+.my-social {
+    text-align: center;
+    margin: 0 auto;
+    border: #48b7f7 solid 1px;
+    width: max-content;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+}
+
+.my-social>a {
+    margin: 12px;
+    text-decoration: none;
+}
+
+.my-social>a>i {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.sobre-mim {
+    color: white;
+}
+
+.matt-card {
+    padding: 25px;
+    margin: 5% 2px 20px 2px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 24px 6px rgba(38, 38, 38, 1);
+    -moz-box-shadow: 0px 0px 24px 6px rgba(38, 38, 38, 1);
+    box-shadow: 0px 0px 24px 6px rgba(38, 38, 38, 1);
+}
+
+.matt-card>h1 {
+    text-align: center;
+}
+
+.matt-card>p {
+    text-align: justify;
+}
