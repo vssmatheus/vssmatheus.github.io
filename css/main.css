@@ -2,7 +2,6 @@
 @import url("/node_modules/bootstrap/dist/css/bootstrap.css");
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.css");
 @import url("/css/styles.css");
-
-*{
+* {
     font-family: 'Lato', sans-serif;
 }
