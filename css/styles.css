@@ -78,6 +78,20 @@ header {
     font-weight: 100;
 }
 
+.langs {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.langs>a {
+    margin: 5px;
+    background: transparent;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 0px 24px 6px rgba(66, 128, 194, 0.48);
+    -moz-box-shadow: 0px 0px 24px 6px rgba(66, 128, 194, 0.48);
+    box-shadow: 0px 0px 24px 6px rgba(66, 128, 194, 0.48);
+}
+
 .traco-azul {
     height: 3px;
     background: linear-gradient(to right, rgb(0, 102, 255) 0%, #59c2ff 52%);
@@ -168,7 +182,7 @@ header {
 #icon-skill-js {
     font-size: 23px;
     margin: 10px;
-    color: rgb(255, 38, 0);
+    color: rgb(255, 187, 0);
 }
 
 #icon-skill-node-js {
@@ -210,7 +224,7 @@ header {
     border-radius: 50px;
     margin-right: 10px;
     margin-left: 10px;
-    background: linear-gradient(to right, rgb(255, 38, 0) 0%, #ff5959 52%);
+    background: linear-gradient(to right, rgb(255, 187, 0) 0%, #ffe659 52%);
 }
 
 .level-bar-node-js {
@@ -242,7 +256,13 @@ header {
 }
 
 footer {
-    height: 20vh;
     background: #303030;
-    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: rgb(206, 206, 206);
 }
