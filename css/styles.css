@@ -100,6 +100,33 @@ header {
     margin-top: -8px;
 }
 
+.illustracao-e-frase {
+    border-top: #ccc 1.5px solid;
+    margin-top: 36px;
+    padding-top: 12px;
+}
+
+.illustracao-e-frase>div>div>img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.illustracao-e-frase>div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustracao-e-frase>div>div>p {
+    margin: 0 auto;
+    text-align: center;
+    color: #919191;
+}
+
+.illustracao-e-frase>div>div>p>span {
+    font-size: 14px;
+}
+
 
 /* txt */
 
@@ -168,12 +195,11 @@ header {
     margin: 0 auto;
 }
 
-.item-skill-tool> img {
+.item-skill-tool>img {
     width: 20px;
     margin: 10px;
     color: rgb(255, 187, 0);
 }
-
 
 #icon-skill-html {
     font-size: 30px;
@@ -259,7 +285,7 @@ header {
     background: linear-gradient(to right, rgb(255, 38, 0) 0%, #ff5959 52%);
 }
 
-.level-bar-photoshop{
+.level-bar-photoshop {
     height: 6px;
     border-radius: 50px;
     margin-right: 10px;
@@ -267,7 +293,7 @@ header {
     background: linear-gradient(to right, #083a74 0%, #2492DF 52%);
 }
 
-.level-bar-xd{
+.level-bar-xd {
     height: 6px;
     border-radius: 50px;
     margin-right: 10px;
