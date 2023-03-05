@@ -1,11 +1,73 @@
 /* CONVENÇÃO BEM (BLOCO ELEMENTO E MODIFICADOR) */
 
-body {
-    background: #f1f1f1;
+.body-contentet {
+    position: relative;
+    background: #1f1f1f;
+    overflow: hidden;
+}
+
+.buble {
+    background: #c7c7c7;
+    position: absolute;
+    margin-left: 3rem;
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50rem;
+    background: rgb(199,199,199);
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(31,31,31,1) 68%, rgba(31,31,31,1) 100%);
+    transform: rotate(-45deg);
+    opacity: 0.03;
+    top: 35rem;
+    z-index: 3;
+}
+
+.buble2 {
+    background: #c7c7c7;
+    position: absolute;
+    margin-left: 3rem;
+    height: 30rem;
+    width: 50rem;
+    border-radius: 50rem;
+    background: rgb(199,199,199);
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(31,31,31,1) 68%, rgba(31,31,31,1) 100%);
+    transform: rotate(-45deg);
+    opacity: 0.03;
+    top: 35rem;
+    z-index: 3;
+}
+
+.buble3 {
+    background: #c7c7c7;
+    position: absolute;
+    right: -30rem;
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50rem;
+    background: rgb(199,199,199);
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(31,31,31,1) 68%, rgba(31,31,31,1) 100%);
+    transform: rotate(-45deg);
+    opacity: 0.03;
+    top: 45rem;
+    z-index: 3;
+}
+
+.buble4 {
+    background: #c7c7c7;
+    position: absolute;
+    left: -20rem;
+    height: 60rem;
+    width: 60rem;
+    border-radius: 50rem;
+    background: rgb(199,199,199);
+    background: linear-gradient(180deg, rgba(199,199,199,1) 0%, rgba(31,31,31,1) 68%, rgba(31,31,31,1) 100%);
+    transform: rotate(60deg);
+    opacity: 0.03;
+    bottom: -25rem;
+    z-index: 3;
 }
 
 header {
-    background-image: url("/assets/images/pexels-negative-space-160107.jpg");
+    background-image: url("../assets/images/pexels-negative-space-160107.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
@@ -13,15 +75,70 @@ header {
     display: block;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 4;
 }
 
-.main {}
+.gradient-header {
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(17, 16, 16, 0.774) , transparent);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-info {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-image {
+    min-height: 200px;
+    margin-left: -50px;
+    top: 0;
+    position: relative;
+}
+
+.copy-email{
+    padding: 0 6px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.copy-email:hover{
+    text-decoration: none;
+}
+
+.copy-email i:hover::before {
+    outline: none;
+    color: #59c2ff;
+}
+
+main {
+    position: relative;
+    z-index: 2;
+}
 
 .img-eu {
     background-color: #aaa;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 245px;
+    height: 245px;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -35,17 +152,27 @@ header {
 .img-eu img {
     background-color: #303030;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 245px;
+    height: 245px;
     overflow: hidden;
     position: relative;
     object-fit: cover;
 }
 
+@media screen and (max-width: 380px) {
+    .img-eu {
+        width: 100px;
+        height: 100%;
+    }
+    .img-eu > img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 .my-name {
     padding: 15px;
     color: white;
-    text-align: center;
     margin-bottom: 15px;
 }
 
@@ -56,20 +183,17 @@ header {
 
 .my-name>span {
     font-size: 1.2rem;
-    color: rgb(243, 243, 243);
+    color: #ffffff;
 }
 
 .my-social {
-    text-align: center;
-    margin: 0 auto;
-    border: #219ae0 solid 1px;
     width: max-content;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px 10px 0;
     border-radius: 5px;
 }
 
 .my-social>a {
-    margin: 12px;
+    margin-right: 24px;
     text-decoration: none;
 }
 
@@ -104,9 +228,9 @@ header {
 
 .traco-azul {
     height: 3px;
-    background: linear-gradient(to right, rgb(0, 102, 255) 0%, #59c2ff 52%);
-    width: 30%;
-    margin-top: -8px;
+    background: linear-gradient(to right, rgb(43, 43, 43) 2%, #5cb3e6 79%);
+    width: 50%;
+    margin-top: 8px;
 }
 
 .illustracao-e-frase {
@@ -145,7 +269,7 @@ header {
 }
 
 .matt-txt {
-    color: #5a5a5a;
+    color: #a1a1a1;
     padding: 25px;
     margin: 5% 2px 5px 2px;
 }
@@ -167,13 +291,17 @@ header {
 /* card */
 
 .matt-card {
-    color: #5a5a5a;
+    color: #a1a1a1;
     padding: 25px;
     margin: 3% 2px 10px 2px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 36px -6px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0px 0px 36px -6px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 0px 36px -6px rgba(0, 0, 0, 0.15);
+    /* From https://css.glass */
+    background: rgba(48, 48, 48, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.1px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(78, 78, 78, 0.42);
 }
 
 .matt-card>.title {
@@ -312,10 +440,6 @@ header {
 
 #skill-porcentagem {
     margin-left: auto;
-}
-
-footer {
-    background: #303030;
 }
 
 .footer {
