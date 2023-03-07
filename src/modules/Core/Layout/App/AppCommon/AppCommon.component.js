@@ -4,14 +4,19 @@ import { Outlet } from "react-router-dom"
 
 import { Footer } from '../Footer';
 import { Header } from '../Header';
+import * as S from './AppCommon.style';
 
 const AppCommon = ({children}) => {
 
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <S.Container>
+        <main>
+          <Header />
+          <Outlet />
+          <Footer />
+        </main>
+      </S.Container>
     </>
   );
 };
