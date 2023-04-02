@@ -19,7 +19,7 @@ const Header = () => {
                             <span>vssmatheus@gmail.com</span>
                             <input style={{display: 'none'}} type="text" id="emailItem" value="vssmatheus@gmail.com" />
         
-                            <a className='copy-email'>
+                            <a href='#' className='copy-email'>
                                 <i style={{color: '#afafaf', margin: '4px 8px 0 8px'}} className="far fa-link"></i>
                             </a>
                         </span>
