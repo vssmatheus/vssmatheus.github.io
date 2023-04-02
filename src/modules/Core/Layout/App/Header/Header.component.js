@@ -26,7 +26,7 @@ const Header = () => {
                             <a href="https://github.com/vssmatheus" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/matheus-viera-ss/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/matheus-vieira-ss/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
                             <a href="https://www.instagram.com/vssmatheus/" target="_blank" rel="noopener noreferrer">

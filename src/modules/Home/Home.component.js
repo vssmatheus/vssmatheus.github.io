@@ -17,7 +17,7 @@ const Home = () => {
                         <br/>
                         <p>
                             Olá, me chamo <strong>Matheus Vieira da Silva Santos,</strong> tenho 25 anos sou de naturalidade brasileira e atualmente moro na cidade de Maurilândia-GO, estou a 4 anos na área de tecnologia, trabalhando com desenvolvimento
-                            de sites e soluções para web, desenvolvendo mais especificamente a parte Front-End. Trabalhei algum tempo como freelancer, porém hoje, estou em atuação como Front-End Developer em regime PJ para <a target="_blank" rel="noopener noreferrer" href="http://edusynch.com/">Edusynch</a>.
+                            de sites e soluções para web, desenvolvendo mais especificamente a parte Front-End. Trabalhei algum tempo como freelancer, porém hoje, estou em atuação como Front-End Developer focado em ReactJS.{/*  em regime PJ para <a target="_blank" rel="noopener noreferrer" href="http://edusynch.com/">Edusynch</a> */}.
                         </p>
                     </div>
                     <hr/>
@@ -87,11 +87,11 @@ const Home = () => {
                                     </li>
                                 </ul>
                                 <div>
-                                    <strong>EduSynch, Remoto </strong> - Desenvolvedor Front-End <br/> <i>MAIO DE 2021 – ATUALMENTE</i>
+                                    <strong>EduSynch, Remoto </strong> - Desenvolvedor Front-End <br/> <i>MAIO DE 2021 – MARÇO DE 2023</i>
                                 </div>
                                 <ul>
                                     <li>
-                                        Responsável pelo desenvolvimento da parte Front-End de aplicações desenvolvidas empresa.
+                                        Responsável pelo desenvolvimento da parte Front-End dos produtos da empresa.
                                     </li>
                                 </ul>
                             </div>
@@ -104,11 +104,10 @@ const Home = () => {
                                 </div>
                                 <br/>
                                 <div>
-                                    <strong>Universidade Estadual de Goiás, unidade de Santa Helena</strong><i>AGOSTO DE 2016 – EM ANDAMENTO</i>
+                                    <strong>Universidade Estadual de Goiás, Santa Helena</strong><i><br /> 2016 – 2021</i>
                                 </div>
                                 <p>
-                                    Graduação: 8º Período - Bacharelado <br/>
-                                    <strong style={{fontSize: '18px'}}>Sistemas de Informação.</strong>
+                                    Bacharel em <strong>Sistemas de Informação.</strong><br/>
                                 </p>
                                 <div className="illustracao-e-frase">
                                     <div className="row">
