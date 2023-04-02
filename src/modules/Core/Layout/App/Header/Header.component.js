@@ -26,16 +26,16 @@ const Header = () => {
                     </div>
                     <div className="container">
                         <div className="my-social">
-                            <a href="https://github.com/vssmatheus" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/vssmatheus" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/matheus-viera-ss/" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/matheus-viera-ss/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="https://www.instagram.com/vssmatheus/" target="_blank" rel="noreferrer">
+                            <a href="https://www.instagram.com/vssmatheus/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-instagram"></i>
                             </a>
-                            <a href="https://m.facebook.com/matheus.vieiradasilva.77" target="_blank" rel="noreferrer">
+                            <a href="https://m.facebook.com/matheus.vieiradasilva.77" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-facebook-f"></i>
                             </a>
                         </div>
