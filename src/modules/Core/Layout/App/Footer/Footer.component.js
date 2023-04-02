@@ -5,7 +5,11 @@ const Footer = () => {
 
   return (
     <>
-      <h2>Footer</h2>
+      <footer id="footer">
+          <div className="container footer">
+              <span style={{fontSize: '0.8rem'}}>Copyright © 2020. Matheus Vieira da Silva Santos.</span>
+          </div>
+      </footer>
     </>
   );
 };
