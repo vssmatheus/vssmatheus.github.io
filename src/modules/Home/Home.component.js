@@ -17,7 +17,7 @@ const Home = () => {
                         <br/>
                         <p>
                             Olá, me chamo <strong>Matheus Vieira da Silva Santos,</strong> tenho 25 anos sou de naturalidade brasileira e atualmente moro na cidade de Maurilândia-GO, estou a 4 anos na área de tecnologia, trabalhando com desenvolvimento
-                            de sites e soluções para web, desenvolvendo mais especificamente a parte Front-End. Trabalhei algum tempo como freelancer, porém hoje, estou em atuação como Front-End Developer em regime PJ para <a target="_blank" href="http://edusynch.com/">Edusynch</a>.
+                            de sites e soluções para web, desenvolvendo mais especificamente a parte Front-End. Trabalhei algum tempo como freelancer, porém hoje, estou em atuação como Front-End Developer em regime PJ para <a target="_blank" rel="noopener noreferrer" href="http://edusynch.com/">Edusynch</a>.
                         </p>
                     </div>
                     <hr/>
