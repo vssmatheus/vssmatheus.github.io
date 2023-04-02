@@ -1,48 +1,54 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ImageHeader from '../../../../../assets/images/header.jpg';
-import * as S from './Header.style';
-import { Title } from '../../../Common';
-import {  CgFacebook, CgInstagram, } from 'react-icons/cg';
-import {  BsLinkedin, BsGithub } from 'react-icons/bs';
-import { SocialLink } from './SocialLink';
+import Avatar  from '../../../../../assets/images/eu_img.png'
 
 const Header = () => {
 
   return (
     <>
-      <S.HeaderContainer>
-        <img src={ImageHeader} alt="Header" />
-        <S.ContentInfo>
-          <S.Name>
-            <strong>Matheus</strong> Vieira
-          </S.Name>
-          <div>
-            Olá
-          </div>
-          <Title weight={300} size={'42px'} color="#fff">
-            Sou <strong>Web Developer</strong>
-          </Title>
-          <span>
-            Sou Web developer, estou a 4 anos trabalhando com desenvolvimento <br />
-            de sites e soluções para web, desenvolvendo mais especificamente a parte Front-End.
-          </span>
-          <S.Social>
-            <SocialLink src={'https://www.facebook.com/matheus.vieiradasilva.77/'}>
-              <CgFacebook color='#fffff' />
-            </SocialLink>
-            <SocialLink src={'https://www.instagram.com/vssmatheus/'}>
-              <CgInstagram color='#fffff' />
-            </SocialLink>
-            <SocialLink src={'https://www.linkedin.com/in/matheus-vieira-ss'}>
-              <BsLinkedin color='#fffff' />
-            </SocialLink>
-            <SocialLink src={'https://github.com/vssmatheus'}>
-              <BsGithub color='#fffff' />
-            </SocialLink>
-          </S.Social>
-        </S.ContentInfo>
-      </S.HeaderContainer>
+      <header>
+            <div className="gradient-header"></div>
+            <div className="container content-header">    
+                <div className="content-info">
+                    <div className="container my-name">
+                        <h1>Matheus Vieira S. Santos</h1>
+                        <span>Desenvolvedor Front-End</span>
+                        <br />
+                        <span style={{display: 'flex', alignItems: 'center', fontSize: '12pt'}}>
+                            <i style={{color: 'rgb(247, 105, 105)', margin: '4px 8px 0 0'}} className="far fa-envelope"></i>
+                            <span>vssmatheus@gmail.com</span>
+                            <input style={{display: 'none'}} type="text" id="emailItem" value="vssmatheus@gmail.com" />
+        
+                            <a className='copy-email' onclick='myFunction()'>
+                                <i style={{color: '#afafaf', margin: '4px 8px 0 8px'}} className="far fa-link"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div className="container">
+                        <div className="my-social">
+                            <a href="https://github.com/vssmatheus" target="_blank" rel="noreferrer">
+                                <i className="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/matheus-viera-ss/" target="_blank" rel="noreferrer">
+                                <i className="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/vssmatheus/" target="_blank" rel="noreferrer">
+                                <i className="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://m.facebook.com/matheus.vieiradasilva.77" target="_blank" rel="noreferrer">
+                                <i className="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-image">
+                    <div class="img-eu">
+                        <img src={Avatar} />
+                    </div>
+                </div>
+            </div>
+        </header>
     </>
   );
 };
