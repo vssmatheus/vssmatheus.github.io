@@ -199,6 +199,7 @@ main {
 .my-name>h1 {
   font-size: 2.5rem;
   font-weight: 700;
+  color: #59c2ff;
 }
 
 .my-name>span {
@@ -206,30 +207,24 @@ main {
   color: #ffffff;
 }
 
-.my-social {
-  width: max-content;
-  padding: 10px 30px 10px 0;
-  border-radius: 5px;
-}
-
-.my-social>a {
-  margin-right: 24px;
+.button-dowload-cv {
+  color: #59c2ff;
+  font-weight: bold;
   text-decoration: none;
+  margin: 0 15px;
+  height: 3.5rem;
+  border-radius: 8px;
+  border: #59c2ff solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.my-social>a:hover {
+.button-dowload-cv:hover {
+  background: #219ae0;
+  color: #ffffff;
+  border: none;
   text-decoration: none;
-}
-
-.my-social>a>i {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 100;
-  text-decoration: none;
-}
-
-.my-social>a>i:hover {
-  color: rgb(198, 222, 255);
 }
 
 .langs {
@@ -443,6 +438,56 @@ main {
 #footer {
   width: 100%;
   margin: 0;
+}
+
+.contato {
+  color: #a1a1a1;
+  padding: 25px;
+  margin: 0 2px 5px 2px;
+}
+
+.contato>.title {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.contatos {
+  margin: 1rem auto 2.5rem;
+  max-width: 35rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contatos>span {
+  margin: 0.5rem 0;
+}
+
+.my-social {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-social>a {
+  margin: 0 24px;
+  text-decoration: none;
+}
+
+.my-social>a:hover {
+  text-decoration: none;
+}
+
+.my-social>a>i {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.my-social>a>i:hover {
+  color: rgb(198, 222, 255);
 }
 
 .footer {

@@ -159,7 +159,7 @@ const Home = () => {
                                             </div>
                                             <div className="matt-card-skill">
                                                 <div className="item-skill-tool">
-                                                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="PS" />
+                                                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="PS" />
                                                 </div>
                                             </div>
                                             <div className="matt-card-skill">
@@ -178,7 +178,44 @@ const Home = () => {
                             </div>
                         </div>
 
-
+                    </section>
+                    <section>
+                        <div className="container">
+                            <div className="contato">
+                                <div className="title">
+                                    <h2>Contato</h2>
+                                    <div className="traco-azul"></div>
+                                </div>
+                                <br />
+                                <div className='contatos'>
+                                    <span style={{ display: 'flex', alignItems: 'center', fontSize: '12pt' }}>
+                                        <i style={{ color: '#59c2ff', margin: '4px 8px 0 0' }} className="far fa-envelope"></i>
+                                        <span>vssmatheus@gmail.com</span>
+                                    </span>
+                                    <span style={{ display: 'flex', alignItems: 'center', fontSize: '12pt' }}>
+                                        <i style={{ color: '#59c2ff', margin: '4px 8px 0 0' }} className="far fa-phone"></i>
+                                        <span>(64) 9 9334-2457</span>
+                                    </span>
+                                </div>
+                                <div className="container">
+                                    <div className="my-social">
+                                        <a href="https://github.com/vssmatheus" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/matheus-vieira-ss/" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-linkedin-in"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/vssmatheus/" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="https://m.facebook.com/matheus.vieiradasilva.77" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
                     </section>
                 </main>
             </div>
