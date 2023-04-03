@@ -17,7 +17,7 @@ const Header = () => {
                         <span style={{display: 'flex', alignItems: 'center', fontSize: '12pt'}}>
                             <i style={{color: 'rgb(247, 105, 105)', margin: '4px 8px 0 0'}} className="far fa-envelope"></i>
                             <span>vssmatheus@gmail.com</span>
-                            <input style={{display: 'none'}} type="text" id="emailItem" value="vssmatheus@gmail.com" />
+                            <input style={{display: 'none'}} type="text" id="emailItem" />
                               <i style={{color: '#afafaf', margin: '4px 8px 0 8px'}} className="far fa-link"></i>
                         </span>
                     </div>
