@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Avatar from '../../../../../assets/images/eu_img.png';
 import MyCV from '../../../../../assets/cv/cv.pdf';
+import { Button } from '../../../Common';
 
 const Header = () => {
-
     return (
         <>
             <header>
@@ -17,16 +17,11 @@ const Header = () => {
                             <span>Front-End Developer</span>
                             <br />
                         </div>
-                        <a
-                            className='button-dowload-cv'
-                            type="application/octet-stream"
-                            href={MyCV}
-                            download="CV Matheus Vieira"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Download CV
-                        </a>
+                        <Button 
+                            name={'Baixar meu CV'}
+                            archive={MyCV}
+                            nameArchive={'CV Matheus Vieira'}
+                        />
                     </div>
                     <div className="content-image">
                         <div className="img-eu">

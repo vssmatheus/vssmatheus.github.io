@@ -207,26 +207,6 @@ main {
   color: #ffffff;
 }
 
-.button-dowload-cv {
-  color: #59c2ff;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 15px;
-  height: 3.5rem;
-  border-radius: 8px;
-  border: #59c2ff solid 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button-dowload-cv:hover {
-  background: #219ae0;
-  color: #ffffff;
-  border: none;
-  text-decoration: none;
-}
-
 .langs {
   text-align: center;
   padding-top: 15px;
@@ -407,6 +387,12 @@ main {
   color: rgb(0, 140, 255);
 }
 
+#icon-skill-node {
+  font-size: 2.5rem;
+  margin: 10px;
+  color: rgb(9, 255, 0);
+}
+
 #icon-skill-js {
   font-size: 3rem;
   margin: 10px;
@@ -425,10 +411,17 @@ main {
   color: rgb(255, 38, 0);
 }
 
+#icon-skill-sass {
+  font-size: 3rem;
+  margin: 10px;
+  color: rgb(255, 0, 179);
+}
+
+
 #icon-skill-react {
   font-size: 3rem;
   margin: 10px;
-  color: rgb(158, 17, 223);
+  color: rgb(17, 151, 223);
 }
 
 #skill-porcentagem {

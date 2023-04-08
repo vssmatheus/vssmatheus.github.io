@@ -6,6 +6,10 @@ const Home = () => {
     return (
         <>
             <div className='body-contentet'>
+                {/* <div class="buble"></div>
+                <div class="buble2"></div>
+                <div class="buble3"></div>
+                <div class="buble4"></div> */}
                 <main className="container-main">
                     <section>
                         <div className="container">
@@ -144,6 +148,11 @@ const Home = () => {
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
+                                                    <i className="fab fa-sass" id="icon-skill-sass"></i>
+                                                </div>
+                                            </div>
+                                            <div className='matt-card-skill'>
+                                                <div className="item-skill-tool">
                                                     <i className="fab fa-js-square" id="icon-skill-js"></i>
                                                 </div>
                                             </div>
@@ -162,9 +171,9 @@ const Home = () => {
                                                     <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="PS" />
                                                 </div>
                                             </div>
-                                            <div className="matt-card-skill">
+                                            <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <img src="https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo-1.png" alt="PS" />
+                                                    <i className="fab fa-node-js" id="icon-skill-node"></i>
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
