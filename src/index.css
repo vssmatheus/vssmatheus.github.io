@@ -279,7 +279,7 @@ main {
 }
 
 .matt-txt>p {
-  text-align: justify;
+  text-align: center;
 }
 
 
@@ -328,6 +328,22 @@ main {
   flex-wrap: wrap;
 }
 
+.experiencia>div>strong {
+  color: #59c2ff;
+}
+
+.experiencia>ul {
+  padding: 1rem 2rem;
+}
+
+.experiencia>ul:nth-last-child(n + 2) {
+  border-bottom: #919191 solid 2px;
+}
+
+.formacao>p>.curso{
+  color: #59c2ff;
+}
+
 .matt-card>.title {
   max-width: min-content;
 }
@@ -346,7 +362,7 @@ main {
 }
 
 .matt-card>p {
-  text-align: justify;
+  text-align: left;
 }
 
 

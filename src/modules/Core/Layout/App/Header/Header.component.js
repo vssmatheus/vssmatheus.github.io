@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Avatar from '../../../../../assets/images/eu_img.png';
+import Avatar from '../../../../../assets/images/eu_img.jpg';
 import MyCV from '../../../../../assets/cv/cv.pdf';
 import { Button } from '../../../Common';
 

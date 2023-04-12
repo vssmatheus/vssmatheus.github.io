@@ -20,8 +20,10 @@ const Home = () => {
                                 </div>
                                 <br />
                                 <p>
-                                    Olá, me chamo <strong>Matheus Vieira da Silva Santos,</strong> tenho 25 anos sou de naturalidade brasileira e atualmente moro na cidade de Maurilândia-GO, estou a 4 anos na área de tecnologia, trabalhando com desenvolvimento
-                                    de sites e soluções para web, desenvolvendo mais especificamente a parte Front-End. Trabalhei algum tempo como freelancer, porém hoje, estou em atuação como Front-End Developer focado em ReactJS.{/*  em regime PJ para <a target="_blank" rel="noopener noreferrer" href="http://edusynch.com/">Edusynch</a> */}.
+                                    Olá, me chamo <strong>Matheus Vieira da Silva Santos,</strong> tenho 25 anos sou de naturalidade brasileira e atualmente moro na cidade de Maurilândia-GO.
+                                    Sou <strong>Desenvolvedor front-end,</strong> apaixonado por criar páginas web, aplicações e interfaces amigáveis visualmente. Tenho 3 anos de experiência
+                                    utilizando ReactJS, HTML, CSS e JavaScript. Me sinto animado para explorar novas oportunidades, novas tecnologias e ampliar meus conhecimentos nessa profissão tão fascinante!
+                                    {/*  em regime PJ para <a target="_blank" rel="noopener noreferrer" href="http://edusynch.com/">Edusynch</a> */}.
                                 </p>
                             </div>
                             <hr />
@@ -59,7 +61,7 @@ const Home = () => {
                                         </div>
                                         <br />
                                         <p>
-                                            Trabalhar de forma organizada, dinâmica, proativa e aprender sempre, melhorando a bagagem curricular e dessa forma obter mais experiência na área de tecnologia.
+                                            Consolidar uma carreira de sucesso na área de programação, podendo escalar e me tornar uma referência com alta senioridade.
                                         </p>
                                     </div>
                                 </div>
@@ -79,7 +81,8 @@ const Home = () => {
                                         </div>
                                         <ul>
                                             <li>
-                                                Responsável pela construção e prototipação de modelos testáveis para as soluções produzidas na empresa.
+                                                Responsável pela prototipação de modelos testáveis para aplicações produzidas
+                                                na empresa, utilizando Angular, HTML, CSS, TypeScript e prototipação com adube XD.
                                             </li>
                                         </ul>
                                         <div>
@@ -87,7 +90,8 @@ const Home = () => {
                                         </div>
                                         <ul>
                                             <li>
-                                                Responsável pelo desenvolvimento da parte Front-End de aplicações desenvolvidas empresa.
+                                                Responsável pelo desenvolvimento da parte Front-end no site da empresa, e no projeto
+                                                Digital Card onde utilizei tecnologias como ReactJS, HTML, CSS, SCSS  e JavaScript.
                                             </li>
                                         </ul>
                                         <div>
@@ -95,7 +99,9 @@ const Home = () => {
                                         </div>
                                         <ul>
                                             <li>
-                                                Responsável pelo desenvolvimento da parte Front-End dos produtos da empresa.
+                                                Responsável pelo desenvolvimento da parte Front-end no site institucional e no projeto
+                                                CMS da empresa, utilizando ReactJS, NextJS, HTML, CSS, SCSS styled-components, JavaScript,
+                                                TypeScript e Redux, e axios para consumo de APIs REST, UI design com Figma.
                                             </li>
                                         </ul>
                                     </div>
@@ -107,11 +113,11 @@ const Home = () => {
                                             <div className="traco-azul"></div>
                                         </div>
                                         <br />
-                                        <div>
-                                            <strong>Universidade Estadual de Goiás, Santa Helena</strong><i><br /> 2016 – 2021</i>
-                                        </div>
                                         <p>
-                                            Bacharel em <strong>Sistemas de Informação.</strong><br />
+                                            Bacharel em <strong className='curso'>Sistemas de Informação.</strong><br />
+                                        </p>
+                                        <p>
+                                            <strong>Universidade Estadual de Goiás, Santa Helena</strong><i><br /> Conclusão – 2021</i>
                                         </p>
                                         <div className="illustracao-e-frase">
                                             <div className="row">
