@@ -1,5 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+    FaAngular, 
+    FaCss3Alt, 
+    FaEnvelope, 
+    FaFacebookF, 
+    FaFigma, 
+    FaGitAlt, 
+    FaGithub, 
+    FaHtml5, 
+    FaInstagram, 
+    FaJsSquare, 
+    FaLinkedinIn, 
+    FaNodeJs, 
+    FaPhoneAlt, 
+    FaReact, 
+    FaSass
+} from "react-icons/fa";
 
 const Home = () => {
 
@@ -24,6 +41,7 @@ const Home = () => {
                                     Sou <strong>Desenvolvedor front-end,</strong> apaixonado por criar páginas web, aplicações e interfaces amigáveis visualmente. Tenho 3 anos de experiência
                                     utilizando ReactJS, HTML, CSS e JavaScript. Me sinto animado para explorar novas oportunidades, novas tecnologias e ampliar meus conhecimentos nessa profissão tão fascinante!
                                     {/*  em regime PJ para <a target="_blank" rel="noopener noreferrer" href="http://edusynch.com/">Edusynch</a> */}.
+
                                 </p>
                             </div>
                             <hr />
@@ -144,47 +162,47 @@ const Home = () => {
                                         <div className="skills-container">
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-html5" id="icon-skill-html"></i>
+                                                    <FaHtml5 id="icon-skill-html" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-css3" id="icon-skill-css"></i>
+                                                    <FaCss3Alt id="icon-skill-css" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-sass" id="icon-skill-sass"></i>
+                                                    <FaSass id="icon-skill-sass" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-js-square" id="icon-skill-js"></i>
+                                                    <FaJsSquare id="icon-skill-js" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-react" id="icon-skill-react"></i>
+                                                    <FaReact id="icon-skill-react" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-angular" id="icon-skill-angular"></i>
+                                                    <FaAngular id="icon-skill-angular" />
                                                 </div>
                                             </div>
                                             <div className="matt-card-skill">
                                                 <div className="item-skill-tool">
-                                                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="PS" />
+                                                    <FaGitAlt id="icon-skill-git" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <i className="fab fa-node-js" id="icon-skill-node"></i>
+                                                    <FaNodeJs id="icon-skill-node" />
                                                 </div>
                                             </div>
                                             <div className='matt-card-skill'>
                                                 <div className="item-skill-tool">
-                                                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="PS" />
+                                                    <FaFigma id="icon-skill-figma"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,27 +222,27 @@ const Home = () => {
                                 <br />
                                 <div className='contatos'>
                                     <span style={{ display: 'flex', alignItems: 'center', fontSize: '12pt' }}>
-                                        <i style={{ color: '#59c2ff', margin: '4px 8px 0 0' }} className="far fa-envelope"></i>
+                                        <FaEnvelope style={{ color: '#59c2ff', margin: '4px 8px 0 0' }} className="far fa-envelope" />
                                         <span>vssmatheus@gmail.com</span>
                                     </span>
                                     <span style={{ display: 'flex', alignItems: 'center', fontSize: '12pt' }}>
-                                        <i style={{ color: '#59c2ff', margin: '4px 8px 0 0' }} className="far fa-phone"></i>
+                                        <FaPhoneAlt style={{ color: '#59c2ff', margin: '4px 8px 0 0' }} className="far fa-phone" />
                                         <span>(64) 9 9334-2457</span>
                                     </span>
                                 </div>
                                 <div className="container">
                                     <div className="my-social">
                                         <a href="https://github.com/vssmatheus" target="_blank" rel="noopener noreferrer">
-                                            <i className="fab fa-github"></i>
+                                            <FaGithub id='icon-social'/>
                                         </a>
                                         <a href="https://www.linkedin.com/in/matheus-vieira-ss/" target="_blank" rel="noopener noreferrer">
-                                            <i className="fab fa-linkedin-in"></i>
+                                            <FaLinkedinIn id='icon-social'/>
                                         </a>
                                         <a href="https://www.instagram.com/vssmatheus/" target="_blank" rel="noopener noreferrer">
-                                            <i className="fab fa-instagram"></i>
+                                            <FaInstagram id='icon-social'/>
                                         </a>
                                         <a href="https://m.facebook.com/matheus.vieiradasilva.77" target="_blank" rel="noopener noreferrer">
-                                            <i className="fab fa-facebook-f"></i>
+                                            <FaFacebookF id='icon-social'/>
                                         </a>
                                     </div>
                                 </div>

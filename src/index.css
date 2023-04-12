@@ -398,7 +398,7 @@ main {
 }
 
 #icon-skill-css {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin: 10px;
   color: rgb(0, 140, 255);
 }
@@ -431,6 +431,18 @@ main {
   font-size: 3rem;
   margin: 10px;
   color: rgb(255, 0, 179);
+}
+
+#icon-skill-git {
+  font-size: 2.9rem;
+  margin: 10px;
+  color: rgb(238, 90, 61);
+}
+
+#icon-skill-figma {
+  font-size: 2.9rem;
+  margin: 10px;
+  color: rgb(213, 213, 213);
 }
 
 
@@ -482,6 +494,11 @@ main {
 .my-social>a {
   margin: 0 24px;
   text-decoration: none;
+}
+
+#icon-social{
+  color: #c7c7c7;
+  font-size: x-large;
 }
 
 .my-social>a:hover {
