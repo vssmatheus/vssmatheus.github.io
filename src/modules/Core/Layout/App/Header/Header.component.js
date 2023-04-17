@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Avatar from '../../../../../assets/images/eu_img.jpg';
 import MyCV from '../../../../../assets/cv/cv.pdf';
+import MyCVEn from '../../../../../assets/cv/cv_en.pdf';
 import { Button } from '../../../Common';
 
 const Header = () => {
@@ -12,14 +13,15 @@ const Header = () => {
                 <div className="container content-header">
                     <div className="content-info">
                         <div className="container my-name">
-                            <h5>Olá, sou</h5>
+                            <h5>Hi, i'm</h5>
                             <h1>Matheus Vieira</h1>
                             <span>Front-End Developer</span>
                             <br />
                         </div>
                         <Button 
-                            name={'Baixar meu CV'}
-                            archive={MyCV}
+                            name={'See my resume'}
+                            archiveBr={MyCV}
+                            archiveEn={MyCVEn}
                             nameArchive={'CV Matheus Vieira'}
                         />
                     </div>

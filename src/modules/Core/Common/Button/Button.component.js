@@ -2,27 +2,39 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import * as S from './Button.style';
 
-const Button = ({ name, archive, nameArchive }) => {
+const Button = ({ archiveBr, archiveEn, nameArchive }) => {
+
+    const handleSelect = (elm) => {
+        window.open(elm, '_blank', 'noopener', 'noreferrer');
+        // if (newWindow) newWindow.opener = null;
+    };
 
     return (
         <>
-            <S.ButtonContainer
-                className='button-dowload-cv'
-                type="application/octet-stream"
-                href={archive}
+            <S.Select 
+                href={archiveEn}
                 download={nameArchive}
-                target="_blank"
-                rel="noopener noreferrer"
+                name="dropDown" 
+                onChange={e => handleSelect(e.target.value)}
             >
-                {name}
-            </S.ButtonContainer>
+                <option value={archiveEn}>
+                    {'See my resume'}
+                </option>
+                <option value={archiveEn}>
+                            {'In english'}
+                </option>
+                <option value={archiveBr}>
+                    {'In portuguese'}
+                </option>
+            </S.Select>
         </>
     );
 };
 
 Button.propTypes = {
     name: PropTypes.string,
-    archive: PropTypes.any,
+    archiveBr: PropTypes.any,
+    archiveEn: PropTypes.any,
     nameArchive: PropTypes.string,
 };
 
