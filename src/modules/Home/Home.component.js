@@ -212,21 +212,6 @@ const Home = () => {
                       a nota 9.8 no TCC marcou este projeto como o grande
                       projeto da minha vida. Que deu início a minha carreira.
                     </p>
-                    <div className="illustracao-e-frase">
-                      <div className="row">
-                        <div>
-                          <p>
-                            <span>
-                              "I am a firm believer in a compensation law. True
-                              rewards are always proportionate to the efforts
-                              made."
-                            </span>
-                            <br />
-                            <span>- Nikola Tesla -</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -240,52 +225,61 @@ const Home = () => {
                       <div className="traco-azul"></div>
                     </div>
                     <br />
-                    <h5>Algumas das tecnologias das quais tenho domino</h5>
+                    <h5>Minhas competências se baseiam nas seguintes ferramentas e linguagens:</h5>
                     <br />
                     <div className="skills-container">
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaHtml5 id="icon-skill-html" />
+                          <p>HTML</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaCss3Alt id="icon-skill-css" />
+                          <p>CSS</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaSass id="icon-skill-sass" />
+                          <p>SASS</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaJsSquare id="icon-skill-js" />
+                          <p>JavaScript</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaReact id="icon-skill-react" />
+                          <p>React</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaAngular id="icon-skill-angular" />
+                          <p>Angular</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaGitAlt id="icon-skill-git" />
+                          <p>Git</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaNodeJs id="icon-skill-node" />
+                          <p>Node.JS</p>
                         </div>
                       </div>
                       <div className="matt-card-skill">
                         <div className="item-skill-tool">
                           <FaFigma id="icon-skill-figma" />
+                          <p>Figma</p>
                         </div>
                       </div>
                     </div>
