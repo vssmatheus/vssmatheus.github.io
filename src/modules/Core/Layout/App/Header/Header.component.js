@@ -13,13 +13,13 @@ const Header = () => {
                 <div className="container content-header">
                     <div className="content-info">
                         <div className="container my-name">
-                            <h5>Hi, i'm</h5>
+                            <h5>Olá, sou</h5>
                             <h1>Matheus Vieira</h1>
-                            <span>Front-End Developer</span>
+                            <span>Desenvolvedor Front-End</span>
                             <br />
                         </div>
                         <Button 
-                            name={'See my resume'}
+                            name={'Veja meu currículo'}
                             archiveBr={MyCV}
                             archiveEn={MyCVEn}
                             nameArchive={'CV Matheus Vieira'}
