@@ -1,41 +1,109 @@
-# Web Curriculum 
+# 🌐 Web Curriculum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido em React com Create React App
+.
 
-## Available Scripts
+## 🚀 Scripts Disponíveis
 
-In the project directory, you can run:
+No diretório do projeto, você pode executar:
 
-### `npm start`
+ - npm start      # Executa em modo desenvolvimento (http://localhost:3000)
+ - npm test       # Roda os testes
+ - npm run build  # Gera a versão otimizada para produção
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🔥 Fluxo Git – Padrão de Trabalho
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este documento define o fluxo de branches e comandos Git adotados neste projeto.
+O objetivo é manter o código organizado, seguro e escalável, facilitando o trabalho em equipe.
 
-### `npm test`
+## 🌳 Estrutura de Branches
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- main → Produção (sempre estável).
 
-### `npm run build`
+- develop → Integração contínua (base para features).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- feature/ → Funcionalidades em desenvolvimento.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- release/ → Ajustes finais antes de produção.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- hotfix/ → Correções urgentes na produção.
 
-### `npm run eject`
+## 🔧 Configuração inicial
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- git clone git@github.com:usuario/repositorio.git
+cd repositorio
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- git checkout main
+- git pull origin main
+- git checkout -b develop
+- git push origin develop
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✨ Criando uma Feature
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- git checkout develop
+- git pull origin develop
+- git checkout -b feature/nome-da-feature
 
+- git add .
+- git commit -m "feat: descrição clara"
+- git push origin feature/nome-da-feature
+
+
+## ➡️ Criar Pull Request (PR): feature → develop.
+
+### 🔄 Merge de Features
+
+PR é revisado.
+
+Após aprovação → merge em develop.
+
+- git checkout develop
+- git pull origin develop
+
+## 📦 Criando uma Release
+
+- git checkout develop
+- git pull origin develop
+- git checkout -b release/vX.Y.Z
+
+
+## ➡️ PR: release → main e release → develop.
+
+### 🚀 Publicando em Produção
+
+- git checkout main
+- git pull origin main
+- git merge --ff-only release/vX.Y.Z
+- git push origin main
+
+- git tag -a vX.Y.Z -m "Versão X.Y.Z"
+- git push origin vX.Y.Z
+
+### 🛠 Hotfix (correções urgentes)
+
+- git checkout main
+- git pull origin main
+- git checkout -b hotfix/nome-do-fix
+
+- git commit -m "fix: descrição do problema"
+- git push origin hotfix/nome-do-fix
+
+
+## ➡️ PR: hotfix → main e hotfix → develop.
+
+### 🧹 Limpeza de Branches
+
+- git branch -d feature/nome-da-feature
+- git push origin --delete feature/nome-da-feature
+
+## ✅ Resumo do Fluxo
+
+- feature/ → novas funcionalidades → merge em develop.
+
+- release/ → preparação de versão → merge em main + develop.
+
+- otfix/ → correções urgentes → merge em main + develop.
+
+- main → sempre estável.
+
+- develop → base de integração.
