@@ -92,80 +92,58 @@ const Home = () => {
                       <div className="traco-azul"></div>
                     </div>
                     <br />
+
+                    {/* Stefanini em primeiro lugar */}
                     <div>
-                      <strong>EduSynch</strong> - Front-end Developer <br />{' '}
+                      <strong>Stefanini Brasil</strong> - Desenvolvedor Front-End Sênior <br /> 
+                      <span>JAN 2024 - O MOMENTO · 1 ano 9 meses</span>
+                    </div>
+                    <br />
+                    <p>
+                      A Stefanini é uma das maiores multinacionais brasileiras de soluções digitais, com presença em 41 países e mais de 32.000 profissionais altamente capacitados. Atuo alocado na <strong>Caixa Econômica</strong>.
+                    </p>
+                    <ul>
+                      <li>Implementação de novas features e manutenção do sistema Cartão Cidadão (SICID);</li>
+                      <li>Atuação em time de desenvolvimento, assumindo itens de trabalho para melhoria de UX;</li>
+                      <li>Desenvolvimento de front-end com foco em TDD;</li>
+                      <li>Melhoria contínua da experiência do usuário final.</li>
+                    </ul>
+
+                    {/* EduSynch */}
+                    <div>
+                      <strong>EduSynch</strong> - Front-end Developer <br /> 
                       <span>MAIO 2021 - MARÇO 2023</span>
                     </div>
                     <br />
                     <p>
-                      A EduSynch é líder no desenvolvimento e fornecimento de
-                      tecnologias de avaliação e supervisão remota, com mais de
-                      680.000 usuários e 14 milhões de perguntas respondidas nos
-                      setores educacional e corporativo. Atuei no
-                      desenvolvimento de novas funcionalidades para um projeto
-                      de CMS voltado paragestão do conteúdo geral do sistema
+                      A EduSynch é líder no desenvolvimento e fornecimento de tecnologias de avaliação e supervisão remota, com mais de
+                      680.000 usuários e 14 milhões de perguntas respondidas nos setores educacional e corporativo. Atuei no
+                      desenvolvimento de novas funcionalidades para um projeto de CMS voltado para gestão do conteúdo geral do sistema
                       E-Proctoring da empresa.
                     </p>
                     <ul>
                       <li>Desenvolvimento e manutenção da parte front-end;</li>
-                      <li>
-                        Resolução de bugs e implementação de novas telas e
-                        componentes;
-                      </li>
+                      <li>Resolução de bugs e implementação de novas telas e componentes;</li>
                       <li>Consumo de APIs REST;</li>
                       <li>Revisão de Código;</li>
-                      <li>
-                        Realizar a tradução em toda aplicação utilizando o i18n.
-                      </li>
+                      <li>Tradução da aplicação utilizando i18n.</li>
                     </ul>
+
+                    {/* Digital S/A */}
                     <div>
-                      <strong>Digital S/A</strong> - Front-End Developer <br />{' '}
+                      <strong>Digital S/A</strong> - Front-End Developer <br /> 
                       <span>FEVEREIRO DE 2020 - JUNHO DE 2021</span>
                     </div>
                     <br />
                     <p>
-                      A Digital S/A é uma agência voltada para o desenvolvimento
-                      Web e App, sistemas e soluções de tecnologia de marketing.
-                      Desenvolvimento de sistemas de estatística e estratégia de
-                      marca. Consultoria estratégica, incluindo plano de
-                      negócios e desenvolvimento de estratégia de vendas.
+                      A Digital S/A é uma agência voltada para o desenvolvimento Web e App, sistemas e soluções de tecnologia de marketing.
+                      Desenvolvimento de sistemas de estatística e estratégia de marca. Consultoria estratégica, incluindo plano de negócios e
+                      desenvolvimento de estratégia de vendas.
                     </p>
                     <ul>
-                      <li>
-                        Desenvolvimento e manutenção de todas as telas do site,
-                        utilizando html css e JS;
-                      </li>
-                      <li>
-                        Integração com sistemas capcha para autenticações;
-                      </li>
-                      <li>Controle de versionamento com gitflow.</li>
-                    </ul>
-                    <div>
-                      <strong>Maxxsoft Tecnologia </strong> - Estagiário <br />{' '}
-                      <span>JUNHO DE 2019 - OUTUBRO DE 2019</span>
-                    </div>
-                    <br />
-                    <p>
-                      A Maxxsoft é uma empresa que tem por objetivo desenvolver
-                      e integrar as melhores soluções tecnológicas para o
-                      Agronegócio.
-                    </p>
-                    <p>
-                      Neste estágio, atuei no desenvolvimento de uma aplicação
-                      que tem por finalidade a emissão de notas fiscais
-                      Eletrônicas.
-                    </p>
-                    <ul>
-                      <li>
-                        Definir o design das telas e implementar utilizando
-                        Angular Material;
-                      </li>
-                      <li>
-                        Auxílio da definição da Arquitetura front-end inicial do
-                        projeto;
-                      </li>
-                      <li>Controle de versionamento com gitflow;</li>
-                      <li>Fazer Integrações com uma API REST.</li>
+                      <li>Desenvolvimento e manutenção de todas as telas do site, utilizando HTML, CSS e JS;</li>
+                      <li>Integração com sistemas CAPTCHA para autenticações;</li>
+                      <li>Controle de versionamento com Gitflow.</li>
                     </ul>
                   </div>
                 </div>
