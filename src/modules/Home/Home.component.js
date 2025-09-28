@@ -32,9 +32,9 @@ const Home = () => {
                 </div>
                 <br />
                 <p>
-                  <strong>Sou Desenvolvedor front-end,</strong> apaixonado por
+                  <strong>Sou Desenvolvedor front-end sênior,</strong> apaixonado por
                   criar páginas web, aplicações e interfaces visualmente
-                  amigáveis. Tenho 3 anos de experiência na área de tecnologia.
+                  amigáveis. Tenho 6 anos de experiência na área de tecnologia.
                   Minha Principal característica é ser atencioso aos detalhes
                   visuais, com essa habilidade consigo desenvolver fielmente no
                   front-end o que foi proposto para as interfaces pelo time de
@@ -42,7 +42,7 @@ const Home = () => {
                   entre o front-end e o design. Capaz de atuar com excelência
                   principalmente em ReactJS, NextJS, HTML5, CSS, JavaScript, e
                   TypeScript, atualmente tenho buscado aprofundar meus
-                  conhecimentos em Angular Framework. Valorizo a colaboração em
+                  conhecimentos em Angular Framework e desenvolvimento backend em JAVA. Valorizo a colaboração em
                   equipe e acredito a boa comunicação e coordenação são peças
                   fundamentais para o sucesso de qualquer projeto. Me sinto
                   animado para explorar novas oportunidades referentes a
@@ -96,7 +96,7 @@ const Home = () => {
                     {/* Stefanini em primeiro lugar */}
                     <div>
                       <strong>Stefanini Brasil</strong> - Desenvolvedor Front-End Sênior <br /> 
-                      <span>JAN 2024 - O MOMENTO · 1 ano 9 meses</span>
+                      <span>JAN 2024 - O MOMENTO</span>
                     </div>
                     <br />
                     <p>
@@ -319,7 +319,7 @@ const Home = () => {
                       <FaLinkedinIn id="icon-social" />
                     </a>
                     <a
-                      href="https://www.instagram.com/vssmatheus/"
+                      href="https://www.instagram.com/matheusvieira.dev/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
